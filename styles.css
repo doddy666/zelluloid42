@@ -1,0 +1,144 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  line-height: 1.8;
+  padding: 20px;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Bild Container */
+.image-container1,
+.image-container2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.image-container1 img,
+.image-container2 img {
+  max-width: 100%;
+  height: auto;
+  width: 50%; /* Breite anpassen, hier auf 50% gesetzt */
+}
+
+/* Responsive Anpassungen für mobile Geräte */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .logo {
+    max-width: 100%;
+  }
+
+  .image-container1 img,
+  .image-container2 img {
+    width: 80%; /* Breite auf mobilen Geräten anpassen */
+  }
+
+  .content {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  body {
+    padding: 10px;
+    line-height: 1.6;
+  }
+}
+
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid #green; /* $green ersetzt durch #green für Standard CSS */
+  color: #green; /* $green ersetzt durch #green */
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  color: white;
+  background: #green; /* $green ersetzt durch #green */
+}
+
+button:active {
+  letter-spacing: 2px;
+}
+
+button:after {
+  content: "GET YOUR TICKET";
+}
+
+.onclic {
+  width: 40px;
+  border-color: #gray; /* $gray ersetzt durch #gray */
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: #green; /* $green ersetzt durch #green */
+  animation: rotating 2s 0.25s linear infinite;
+}
+
+.onclic:after {
+  content: "GET YOUR TICKET"; /* "GET YOUT TICKET" korrigiert */
+}
+
+.onclic:hover {
+  color: #green; /* $green ersetzt durch #green */
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: #green; /* $green ersetzt durch #green */
+}
+
+.validate:after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
