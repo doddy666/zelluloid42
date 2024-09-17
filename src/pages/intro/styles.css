@@ -82,8 +82,8 @@ button {
   width: 130px;
   border-radius: 40px;
   background: #fff;
-  border: 2px solid #green; /* $green ersetzt durch #green für Standard CSS */
-  color: #green; /* $green ersetzt durch #green */
+  border: 2px solid green; /* #green zu green geändert */
+  color: green; /* #green zu green geändert */
   letter-spacing: 1px;
   text-shadow: 0;
   font-size: 12px;
@@ -94,7 +94,7 @@ button {
 
 button:hover {
   color: white;
-  background: #green; /* $green ersetzt durch #green */
+  background: green; /* #green zu green geändert */
 }
 
 button:active {
@@ -107,10 +107,10 @@ button:after {
 
 .onclic {
   width: 40px;
-  border-color: #gray; /* $gray ersetzt durch #gray */
+  border-color: gray; /* #gray zu gray geändert */
   border-width: 3px;
   font-size: 0;
-  border-left-color: #green; /* $green ersetzt durch #green */
+  border-left-color: green; /* #green zu green geändert */
   animation: rotating 2s 0.25s linear infinite;
 }
 
@@ -119,14 +119,14 @@ button:after {
 }
 
 .onclic:hover {
-  color: #green; /* $green ersetzt durch #green */
+  color: green; /* #green zu green geändert */
   background: white;
 }
 
 .validate {
   font-size: 13px;
   color: white;
-  background: #green; /* $green ersetzt durch #green */
+  background: green; /* #green zu green geändert */
 }
 
 .validate:after {
