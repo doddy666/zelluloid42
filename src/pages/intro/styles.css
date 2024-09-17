@@ -45,7 +45,7 @@ p {
 .image-container2 img {
   max-width: 100%;
   height: auto;
-  width: 50%; /* Breite anpassen, hier auf 50% gesetzt */
+  width: 50%;
 }
 
 /* Responsive Anpassungen für mobile Geräte */
@@ -61,7 +61,7 @@ p {
 
   .image-container1 img,
   .image-container2 img {
-    width: 80%; /* Breite auf mobilen Geräten anpassen */
+    width: 80%;
   }
 
   .content {
@@ -77,13 +77,14 @@ p {
 
 button {
   outline: none;
+  font-family: "Courier New", Courier, monospace;
   height: 40px;
   text-align: center;
   width: 130px;
   border-radius: 40px;
   background: #fff;
-  border: 2px solid green; /* #green zu green geändert */
-  color: green; /* #green zu green geändert */
+  border: 2px solid grey;
+  color: grey;
   letter-spacing: 1px;
   text-shadow: 0;
   font-size: 12px;
@@ -94,7 +95,7 @@ button {
 
 button:hover {
   color: white;
-  background: green; /* #green zu green geändert */
+  background: grey;
 }
 
 button:active {
@@ -107,30 +108,30 @@ button:after {
 
 .onclic {
   width: 40px;
-  border-color: gray; /* #gray zu gray geändert */
+  border-color: gray;
   border-width: 3px;
   font-size: 0;
-  border-left-color: green; /* #green zu green geändert */
+  border-left-color: grey;
   animation: rotating 2s 0.25s linear infinite;
 }
 
 .onclic:after {
-  content: "GET YOUR TICKET"; /* "GET YOUT TICKET" korrigiert */
+  content: "GET YOUR TICKET";
 }
 
 .onclic:hover {
-  color: green; /* #green zu green geändert */
+  color: grey;
   background: white;
 }
 
 .validate {
   font-size: 13px;
   color: white;
-  background: green; /* #green zu green geändert */
+  background: grey;
 }
 
 .validate:after {
-  font-family: "FontAwesome";
+  font-family: "Courier New", Courier, monospace;
   content: "\f00c";
 }
 
