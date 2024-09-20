@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import { IoIosArrowBack } from 'react-icons/io'
-import PdLogo from '../logo/pleasure-dome-logo.png';
+import PdLogo from '../logo/PdLogo.jpg'
 
 const header = () => {
     return (
@@ -11,7 +11,7 @@ const header = () => {
                 <IoIosArrowBack size={30}/>
             </div>
             <div className='header-logo'>
-                <img src={PdLogo} Style={{ height: 70, width: 200 }} alt="React Logo" />
+                <img src={PdLogo} style={{ height: 70, width: 200 }} alt="Pd Logo" />
             </div>
         </div>
         </div>

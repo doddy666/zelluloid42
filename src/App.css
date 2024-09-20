@@ -1,38 +1,130 @@
-.App {
+/* Global styles */
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
   text-align: center;
+  line-height: 1.8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Container styles */
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Textfield1 specific styling */
+.textfield1-container {
+  margin: 20px auto;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Social media buttons styles */
+.social-media-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-media-button {
+  background-color: #0077b5; /* Example for LinkedIn */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-media-button:hover {
+  background-color: #005582;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-back {
+  cursor: pointer;
+}
+
+.header-logo img {
+  height: 70px;
+  width: 200px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .header-logo img {
+    width: 150px;
+    height: 50px;
+  }
+
+  .social-media-buttons {
+    flex-direction: column;
+  }
+
+  .content {
+    font-size: 14px;
+  }
+
+  body {
+    padding: 10px;
+    line-height: 1.6;
+  }
+}
+
+/* Button styling */
+button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: green;
 }

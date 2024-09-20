@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.716f0bb4.css",
+    "main.js": "/static/js/main.9fb1caf1.js",
+    "static/js/488.50442ee8.chunk.js": "/static/js/488.50442ee8.chunk.js",
+    "static/media/PdLogo.jpg": "/static/media/PdLogo.f3b4eea0740d4202ba7d.jpg",
+    "index.html": "/index.html",
+    "main.716f0bb4.css.map": "/static/css/main.716f0bb4.css.map",
+    "main.9fb1caf1.js.map": "/static/js/main.9fb1caf1.js.map",
+    "488.50442ee8.chunk.js.map": "/static/js/488.50442ee8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.716f0bb4.css",
+    "static/js/main.9fb1caf1.js"
+  ]
+}
