@@ -1,0 +1,27 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #4caf50; /* Grüne Grundfarbe */
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45a049; /* Helleres Grün beim Hover */
+}
+
+.button-second {
+  background-color: #008cba; /* Blaue Farbe für Button 2 */
+}
+
+.button-second:hover {
+  background-color: #005f73; /* Dunkleres Blau beim Hover */
+}
