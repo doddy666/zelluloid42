@@ -1,0 +1,53 @@
+/* Main container for archive grid */
+.archive-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  background-color: white; /* Black background like in your example */
+}
+
+/* Each archive item (image + title) */
+.archive-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white; /* Dark background for each item */
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #333; /* Border around each item */
+  transition: transform 0.3s ease;
+}
+
+.archive-item:hover {
+  transform: scale(1.05); /* Scale up on hover for effect */
+}
+
+/* Styling for images */
+.archive-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the titles under the images */
+.archive-title {
+  font-size: 18px;
+  color: black; /* color for titles */
+  margin: 0;
+}
+
+/* Make sure images resize correctly on smaller screens */
+@media (max-width: 768px) {
+  .archive-container {
+    grid-template-columns: 1fr 1fr; /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .archive-container {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}
