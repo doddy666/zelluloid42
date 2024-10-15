@@ -3,10 +3,16 @@ body {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: white;
   color: #000;
   text-align: center;
   line-height: 1.8;
+  background-image: url("/Users/audrey/Documents/KinoClub/zelluloid42/public/Images/program.jpeg");
+  background-size: cover; /* Passt das Bild an die Bildschirmgröße an */
+  background-position: center; /* Zentriert das Bild */
+  background-repeat: no-repeat; /* Verhindert, dass das Bild wiederholt wird */
+  background-attachment: fixed; /* Fixiert das Bild im Hintergrund */
+  min-height: 100vh;
 }
 
 /* Container styles */
