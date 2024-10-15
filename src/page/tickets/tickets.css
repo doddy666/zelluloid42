@@ -1,0 +1,78 @@
+.shows-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 80vh;
+  width: 50%; /* Anpassung auf 50% der Breite des Bildschirms */
+  margin: 0 auto; /* Zentriere den Container horizontal */
+  padding: 10px;
+  background-color: white;
+  color: #ccc;
+}
+
+.show-item {
+  flex: 1 1 calc(33.333% - 80px); /* Drei Show-Items nebeneinander mit 20px Abstand */
+  margin: 20px;
+  background-color: white; /* Korrigiert auf 'white', um den Hintergrund weiß zu machen */
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Stellt sicher, dass alle Items die gleiche Höhe haben */
+}
+
+.show-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.show-image {
+  width: 100%;
+  height: auto;
+}
+
+.show-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1; /* Flexibler Platz für Inhalte */
+}
+
+.show-time,
+.show-title,
+.show-description {
+  flex-grow: 1; /* Alle Texte (Zeit, Titel, Beschreibung) nehmen gleichen Platz ein */
+}
+
+.show-date {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.show-time {
+  font-size: 1rem;
+  color: rgb(99, 96, 96);
+}
+
+.show-title {
+  font-size: 1.5rem;
+  color: black;
+  margin: 10px 0;
+}
+
+.show-description {
+  font-size: 0.9rem;
+  color: rgb(99, 96, 96);
+}
+
+@media only screen and (max-width: 768px) {
+  .show-item {
+    width: 100%; /* Auf kleineren Bildschirmen nimmt jedes Show-Item 100% der Breite ein */
+  }
+}

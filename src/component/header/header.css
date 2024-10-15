@@ -2,12 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
   background-color: white;
   color: white;
   width: 100%;
-  max-width: 1300px; /* Limits the width of the header */
-  margin: 0 auto; /* Centers the header within the window */
+  margin-left: 20px;
   box-sizing: border-box;
 }
 
@@ -18,7 +17,7 @@
 
 .header-logo {
   max-width: 150px;
-  height: 100px;
+  height: auto;
 }
 
 .navbar ul {
