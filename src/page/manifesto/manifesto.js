@@ -5,7 +5,7 @@ import Textfield1 from '../../component/textfield1/textfield1'; // Pfad anpassen
 const Manifesto = () => {
     return (
         <div className='manifesto'>
-            <div className='title'><h1>About Zelluloid 42 </h1></div>
+            <div className='title'><h1>About <br/>Zelluloid 42 </h1></div>
             {Textfield1}
  
 

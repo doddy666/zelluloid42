@@ -7,7 +7,6 @@ body {
   color: #000;
   text-align: center;
   line-height: 1.8;
-  background-image: url("/Users/audrey/Documents/KinoClub/zelluloid42/public/Images/program.jpeg");
   background-size: cover; /* Passt das Bild an die Bildschirmgröße an */
   background-position: center; /* Zentriert das Bild */
   background-repeat: no-repeat; /* Verhindert, dass das Bild wiederholt wird */
@@ -15,7 +14,11 @@ body {
   min-height: 100vh;
 }
 
-/* Container styles */
+.pageWrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .container {
   max-width: 70%;
   margin: 0 auto;

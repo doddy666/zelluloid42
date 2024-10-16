@@ -12,16 +12,19 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route path="/nowplaying" element={<NowPlaying />} />
-        <Route path="*" element={<div>404 Page Not Found</div>} />
-        <Route path="/tickets" element={<Tickets />} />
-        <Route path="/archives" element={<ArchivePage />} />
-        <Route path="/manifesto" element={<Manifesto />} />
-        <Route path="/socialmedia" element={<SocialMediaButtons />} />
-        <Route path="/textfield1" element={<Textfield1 />} />
-      </Routes>
+      <div className="pageWrapper">    
+        <Header />
+        <Routes>
+          {/* <Route path="/nowplaying" element={<NowPlaying />} />
+          <Route path="*" element={<div>404 Page Not Found</div>} /> */}
+          <Route path="/tickets" element={<Tickets />} />
+          <Route path="/archives" element={<ArchivePage />} />
+          <Route path="/manifesto" element={<Manifesto />} />
+          <Route path="/" element={<Manifesto />} />
+          {/* <Route path="/socialmedia" element={<SocialMediaButtons />} />
+          <Route path="/textfield1" element={<Textfield1 />} /> */}
+        </Routes>
+      </div>
     </Router>
   );
 }

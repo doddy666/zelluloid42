@@ -5,15 +5,15 @@ const archiveData = [
 
   {
     title: 'September 2024',
-    imageUrl: '/Images/PDome3.jpg',
+    imageUrl: '/images/PDome3.jpg',
   },
   {
     title: 'August 2024',
-    imageUrl: '/Images/PDome2.jpg',
+    imageUrl: '/images/PDome2.jpg',
   },
   {
     title: 'July 2024',
-    imageUrl: '/Images/PDome1.jpg',
+    imageUrl: '/images/PDome1.jpg',
   },
 ];
 

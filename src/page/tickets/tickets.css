@@ -3,24 +3,24 @@
   flex-wrap: wrap;
   justify-content: center;
   min-height: 80vh;
-  width: 50%; /* Anpassung auf 50% der Breite des Bildschirms */
-  margin: 0 auto; /* Zentriere den Container horizontal */
+  width: 50%; 
+  margin: 0 auto; 
   padding: 10px;
   background-color: white;
   color: #ccc;
 }
 
 .show-item {
-  flex: 1 1 calc(33.333% - 80px); /* Drei Show-Items nebeneinander mit 20px Abstand */
+  flex: 1 1 calc(33.333% - 80px); 
   margin: 20px;
-  background-color: white; /* Korrigiert auf 'white', um den Hintergrund weiß zu machen */
+  background-color: white; 
   border-radius: 8px;
   overflow: hidden;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* Stellt sicher, dass alle Items die gleiche Höhe haben */
+  height: 100%; 
 }
 
 .show-details {
@@ -40,13 +40,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex-grow: 1; /* Flexibler Platz für Inhalte */
+  flex-grow: 1; 
 }
 
 .show-time,
 .show-title,
 .show-description {
-  flex-grow: 1; /* Alle Texte (Zeit, Titel, Beschreibung) nehmen gleichen Platz ein */
+  flex-grow: 1; 
 }
 
 .show-date {
@@ -73,6 +73,6 @@
 
 @media only screen and (max-width: 768px) {
   .show-item {
-    width: 100%; /* Auf kleineren Bildschirmen nimmt jedes Show-Item 100% der Breite ein */
+    width: 100%; 
   }
 }
